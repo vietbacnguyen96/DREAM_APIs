@@ -1,0 +1,42 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.egg-info/
+dist/
+build/
+.cache/
+
+# Virtual environments
+venv/
+env/
+*.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore specific files
+config.ini
+secrets.json
+
+app/ms1mv3_arcface_r50_fp16/backbone_ir50_ms1m_epoch120.pth
+app/arcface_torch/backbones/ms1mv3_arcface_r50_fp16/backbone.pth
